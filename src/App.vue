@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+  <div>
+    <Clock class="clock"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import Clock from '@/components/Clock'
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    Clock
   }
 }
 </script>
 
+<style scoped>
+.clock {
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+}
+</style>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 </style>
