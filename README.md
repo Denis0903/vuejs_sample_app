@@ -33,11 +33,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 # Environment
 
-- node modules are downloaded when you run npm install under the root directory
+- node modules are downloaded when you run "npm install" under the root directory
 
 # Execution method
 
-- Launch the app with npm start or npm run dev
+- Launch the app with "npm start" or "npm run dev"
 - When you access the right, you will be taken to the application screen (needless to say, Chrome is recommended) http: // localhost: 8080
 
 # Description of each folder
